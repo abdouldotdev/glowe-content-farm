@@ -1,0 +1,17 @@
+{
+  "name": "@glowe/content-farm-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Glowe Content Farm MCP: Glowe Studio content generation, history, overlays, CTA slides and exports.",
+  "type": "module",
+  "bin": { "glowe-content-farm": "./bin/mcp-server.mjs" },
+  "scripts": {
+    "mcp": "node ./bin/mcp-server.mjs",
+    "test": "node --test ./test/*.test.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  }
+}
