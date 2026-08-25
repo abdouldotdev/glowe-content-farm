@@ -11,7 +11,7 @@ pas d’un MCP global ni d’un outil générique d’édition d’images.
 Installation :
 
 ```bash
-cd tools/glowe-studio-mcp
+cd glowe-content-farm
 npm install
 GLOWE_STUDIO_URL=https://glowe-studio.vercel.app npm run mcp
 ```
