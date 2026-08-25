@@ -19,6 +19,9 @@ GLOWE_STUDIO_URL=https://glowe-studio.vercel.app npm run mcp
 Pour un Studio protégé, ajouter `GLOWE_STUDIO_TOKEN` dans l’environnement du
 processus MCP.
 
+Un modèle est disponible dans [`.env.example`](./.env.example). Ne jamais
+committer le fichier `.env` réel.
+
 Outils : `glowe_studio_status`, `glowe_studio_list_posts`,
 `glowe_studio_catalog`, `glowe_studio_history`, `glowe_studio_plan_generation`,
 `glowe_studio_generate_generation`,
